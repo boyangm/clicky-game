@@ -1,0 +1,22 @@
+.navbarCont{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 75px;
+    background: blue;
+    .navLinks{
+        width: 100%;
+        position: relative; 
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row;
+    li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+
+        width: 33%;
+
+    }
+    }
+}
